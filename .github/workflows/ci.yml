@@ -7,6 +7,6 @@ jobs:
   steps:
     - uses: actions/checkout@v4
     - name: Verify files exist
-    run:|
-     test -f package.json
-     echo "✅ package.json found"
+      run: |
+          test -f package.json
+          echo "✅ package.json found"
